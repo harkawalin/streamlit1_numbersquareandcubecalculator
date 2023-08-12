@@ -13,6 +13,10 @@ def main():
     # Display results
     st.write(f"Square of {number} is: {square}")
     st.write(f"Cube of {number} is: {cube}")
+    
+    # Display a thank you message with the name
+    name = "Harkawal"
+    st.write(f"Thanks and Regards - {name}")
 
 if __name__ == "__main__":
     main()
