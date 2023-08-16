@@ -2,6 +2,7 @@ import streamlit as st
 
 def main():
     st.title("Number Square and Cube Calculator")
+    st.title("Number Square and Cube Calculator")
     
     # User input for the number
     number = st.number_input("Enter a number:", step=1)
